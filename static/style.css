@@ -27,7 +27,7 @@ header{
     color: #fff;
 }
 .main{
-    background: linear-gradient(153deg, rgb(60, 153, 220)0%, rgb(102, 211, 250)100%), 
+    background: linear-gradient(153deg, rgb(9, 112, 60)0%, rgb(12, 212, 129)100%), 
     url(/assets/signal_searching.svg) center no-repeat;
     position: relative;
     min-height: 80vh;
@@ -53,7 +53,7 @@ header{
     transform: rotate(180deg);
 }
 .button-area{
-    background: #00ff7f;
+    background:rgb(113, 240, 240);
     border-radius: 10px;
     padding: 1em 1.6em;
     font-size: 0.9em;
@@ -85,13 +85,16 @@ header{
 }
 .card i{
     font-size: 6rem;
-    color: #43fa9e;
+    color: gray;
     text-align: center;
     border-radius: 100%;
     box-shadow: rgba(0, 0, 0, 0.2)0%, rgba(0, 0, 0, 0.19)100%;
 }
 .advertising{
     margin-top: 80px;
+}
+h1,.h1{
+    color:white;
 }
 #wifi-advert{
     display: flex;
@@ -157,7 +160,7 @@ header{
     border-radius: 50px;
   }
 .started{
-    background: linear-gradient(to bottom, #71f0f0, #fff);
+    background: linear-gradient(to bottom, #22af69, #fff);
     margin-top: 200px;
     height: 500px;
 }
@@ -186,7 +189,7 @@ header{
     list-style-type: none;
 }
 .ready{
-    background: rgb(39, 39, 223);
+    background: rgb(9, 112, 60)0%;
     padding: 65px 0 65px 0;
     color: #fff;
 }
@@ -202,7 +205,7 @@ header{
 .btn{
     background: #fff;
     border-radius: 6px;
-    color: rgb(39, 39, 223);
+    color: teal;
     
 }
 .email{
