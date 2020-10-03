@@ -1,0 +1,82 @@
+ *{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+ }
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+ }
+ .p-60{
+     padding:60px 0px;
+ }
+ .testimonial_carousel_section{
+    margin:5% auto 0px;
+ }
+ .img-area{
+     width:150px;
+     height:150px;
+     margin:auto;
+     display: block;
+     overflow: hidden;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+}
+.img-area img{
+    
+}
+.profile_card{
+    background-color: #ddd;
+    padding:10%;
+    text-align: center;
+    border-radius: 0px 100px 0px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -ms-border-radius: 100px 100px 100px 100px;
+    -o-border-radius: 100px 100px 100px 100px;
+}
+.profile_card h2{
+    text-transform: uppercase;
+    margin:20px 0px 5px;
+    color:#00bcd4;
+    font-size: 20px;
+}
+.profile_card h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile_card i{
+    color:#00bcd4;
+    margin:0px 5px;
+}
+.profile_card p{
+    font-size: 14px;
+}
+hr{
+    color:#00bcd4;
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    display:inline-block;
+    height:15px !important;
+    width:15px !important;
+    background-color: #00bcd4 !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin:50px 3px 5px;
+}
+.owl-dot.active{
+    background-color: #00bcd4 !important;
+}
+.owl-theme .owl-dots .owl-dot span{
+    display: none !important;
+}

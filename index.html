@@ -1,203 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netpap || Home</title>
-    <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <!-- Navigation starts -->
-    <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-light  ">
-                <div class="container">
-    
-                    <a class="navbar-brand" href="#">NETPAP</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ml-auto">
-                       
-                          <li class="nav-item">
-                            <a style="color:white;font-weight: 900;" class="nav-link" href="https://stage.netpap.co.ke/auth/login">My Account</a>
-                          </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css">
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+        <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>website </title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->     <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">netpap</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Wifi kiosk</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Sign up</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Sign-in</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    
+                    <h1 class="home__title"><br><span class="home__title-color">On Demand Internet</span><br> Leading internet broadband<br> revolution in Africa</h1>
+
+                    <a href="#" class="button">learn more</a>
+                </div>
+                <div class="home__img">    
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+
+            </section>
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill=" #008080" fill-opacity="1" d="M0,224L80,218.7C160,213,320,203,480,170.7C640,139,800,85,960,85.3C1120,85,1280,139,1360,165.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+   <section>
+        <div class="cards">
+       <div class="services">
+            <div class="content content-1">
+                <div class="fa fa-gear" style="font-size:50px"></div>
+                    <h2><br>Simple setup</h2>
+                    <p>To sell wifi,All you need id to create an account, register a phone number to our cloud servers and selling.</p>
+            </div>
+            <div class="content content-2">
+                <div class="fa fa-desktop" style="font-size: 50px"></div>
+                    <h2>Online Management</h2>
+                    <p>We provide an easy to use dashboard to create bundles, wifi/network speeds and pricing</p>
+            </div>
+            <div class="content content-3">
+                <div class="fa fa-credit-card" style="font-size: 50px" ></div>
+                    <h2>Revenue access</h2>
+                    <p>Once your wallet accumalates money. You can access your money at anytime of day.</p>
+            </div>
+            </div>
+       </div>    
+            
+            
+            </section>
+
+            <!--===== ABOUT ADVERT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Advertise</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/img.png" alt="">
+                    </div>
+                    
+                    <div>
+                       <h2 class="about__subtitle">  <div class="fa fa-wifi" style="font-size: 35px"></div> WIFI Advertising</h2>
+                        <p class="about__text">Add value to your wifi by publishing adverts that can be seen by anyone accessing the your wifi. Tracking analysis like clicks views and sessions and redirections to your social media pages using any device whether  it's phone, tablet or desktop the pages will behave responsively! Chat with your consumers and get real-time feedback. Gather data, Give discounts. The value is limitless.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            <h2 class="section-title" id= "about">Partners</h2>
+            <div class="img-area">
+                    <div class="owl-carousel owl-theme">
                         
-                        </ul>
+                        <div class="item"><img src="assets/img/safaricom.png" alt="img">
+                        <div class="info">
+                            <p>Safaricom</p>
+        
+                            </div>    
+                        </div>
+                    
                     </div>
                 </div>
-               
-              </nav>
-    </header>
-    <section class="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>ISP BILLING & User Management</h1>
-                    <p style="color:white;">Leading the broadband revolution in Africa</p>
-                    <div class="button-area">
-                        <a href="https://stage.netpap.co.ke/auth/login">My Dashboard.</a>
-                    </div>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Ready to Get Started</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <p>Call us</p>
+                        <input type="mail" placeholder="070900066" class="contact__input">
+                                             <a href="tel:+254770900066"><input type="button" value="send" class="contact__button button"> </a> 
+                    </form>
                 </div>
-                <div class="col-md-6">
-                    <div class="realtime-img">
-                        <img src="/assets/real-time_sync.svg" alt="" srcset="">
-                    </div>
-                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">netpap</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-        </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="flex-container">
+            <p>Made with love Powered by Rafiki host </p>
+            <p>info@rafikihost.co.ke </p>
+            <p>&#169; 2018 copyright all right reserved</p>
+        </footer>
 
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <i class="fa fa-cogs"></i>
-                  <div class="card-body">
-                    <h5 class="card-title">Simple Setup</h5>
-                    <p class="card-text">To manage your network users get an account integrate to your core router/controller.Start managing.Register M-PESA callbacks and start receiving auto payments.
-                    </p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <i class="fa fa-television"></i>
-                <div class="card-body">
-                  <h5 class="card-title">Cloud Management</h5>
-                  <p class="card-text">We provide an easy to use dashboard to
-                    create bundle plans,send group messages,send payment reminders,auto disconnection.Track payments/users
-                  </p>
-                </div>
-              </div> 
-            </div>
-
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                <i class="fa fa-money"></i>
-                <div class="card-body">
-                  <h5 class="card-title">Billing</h5>
-                  <p class="card-text">Integrate M-PESA Paybill,cash,cheque,EFT,Kopo Kopo & JENGA.Money goes directly to you paybill.Netpap invoices you at the end of the month.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="advertising">
-      <div class="container">
-        <div class="row">
-
-         <div class="col-md-6">
-           <div class="wifi-img">
-            <img src="/assets/broadcast.svg" style="width: 400px; height: auto" alt="" srcset="">
-           </div>
-         </div>
-
-         <div class="col-md-6" id="wifi-advert">
-            <h4><i class="fa fa-wifi"></i>Fixed Broadband</h4>
-            <p> Manage your fixed broadband customers conveniently.System sends automatically payment reminders..Auto disconnect on expiry day.Customers can make repayment and network reconnected automatically.Group customers via package plans with capped speeds.Customer can register unlimited pppoe servers for management all over the world</p>
-         </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="monetize">
-      <div class="container">
-        <div class="row">
-          <h3>Hotspot solution</h3>
-          <p>NETPAP cloud allows you to sell/share your internet connection or start an ISP 
-            business. Payments are automatic via MPESA and All you need connect your router, 
-            load it with our conﬁgurations. Market to your neighbours and start earning money 
-            directly to your account.</p>
-            <h3>How it works</h3>
-            <ol class="custom-counter">
-              <li>A user connect to the your Wi-Fi network</li>
-              <li>They log In to the Captive portal to select bundle</li>
-              <li>The User is the billed and sent an sms through the NETPAP cloud</li>
-              <li>The user receives the voucher</li>
-              <li>The user the access internet by using the sms voucher</li>
-            </ol>
-        </div>
-      </div>
-    </section>
-
-    <section class="started">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-xl-12 col-sm-12 col-xs-12">
-            <div class="card">
-              <div class="card-body">
-                <h6>GETTING STARTED WITH NETPAP INTERNET BILLING</h6>
-                <h2>What do you need to get started?</h2>
-                <ul>
-                  <li><i class="fa fa-thumb-tack" style="font-size: 28px; padding-right: 10px;"></i>Fast reliable Internet,FIBER,SATELLITE(VSAT),Modem etc</li>
-                  <li><i class="fa fa-thumb-tack" style="font-size: 28px; padding-right: 10px"></i>A mikrotik router/UniFI Controller-Mandatory</li>
-                  <li><i class="fa fa-thumb-tack" style="font-size: 28px; padding-right: 10px"></i>Long range,Wifi Extender/Mesh wifi Network for the Hotspot solution(Access point e.g Nano m2,unifi etc)-optional</li>
-                  <li><i class="fa fa-thumb-tack" style="font-size: 28px; padding-right: 10px"></i>Fiber Network,Point to Multipoint wireless Network</li>
-                  <li><i class="fa fa-info" style="font-size: 28px; padding-right: 10px"></i>NOTE:Existing hardware can be used to extend the network</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ready">
-      <div class="container">
-        <div class="row">
-
-         <div class="col-md-6 col-xs-12 col-sm-12">
-           <h2>Ready to get started?</h2>
-            <br>
-           <p>Get your NETPAP on today</p>
-           
-         </div>
-         <div class="col-md-6 col-xs-12 col-sm-12">
-          <a class="btn" id="get-started" id="call" href="tel:+254770900066">Call US Today  +254770900066</a>
-         </div>
 
    
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-        </div>
-      </div>
-    </section>
-
-    <!-- footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-6" id="footer-left">
-            <h3>Netpap Global</h3>
-            <div class="social-icons">
-            <span><a href="https://facebook.com/netpap"><i class="fa fa-facebook-official"></i></a></span>
-            <span><a href="https://twitter.com/netpap"><i class="fa fa-twitter"></i></a></span>
-            <span><a href="https://instagram.com/netpap"></a><i class="fa fa-instagram"></i></span>
-            <span><a href="https://linkedin.com/netpap"><i class="fa fa-linkedin"></i></a></span>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div id="footer-right">
-              <p style="color: #000;">Made with love. Powered by Netpap GLOBAL</p>
-              <p>info@netpap.co.ke</p>
-              <p>Copyright 2018, All rights reserved</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-</body>
+        <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
+        <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+                    $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:20,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            })
+        </script>
+    </body>
 </html>
