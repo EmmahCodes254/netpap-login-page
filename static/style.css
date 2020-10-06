@@ -41,7 +41,7 @@ header{
     color: rgb(135, 206, 235) !important;
 }
 .main{
-    background: linear-gradient(153deg, rgb(135, 206, 235)0%, rgb(0, 128, 128)100%), 
+    background: linear-gradient(153deg, rgb(9, 112, 60)0%, rgb(12, 212, 129)100%), 
     url(/assets/signal_searching.svg) center no-repeat;
     position: relative;
     min-height: 80vh;
@@ -218,7 +218,7 @@ header{
   }
   
 .started{
-    background: linear-gradient(to bottom, rgb(135, 206, 235)0, rgb(255, 255, 255)100%);
+    background: linear-gradient(to bottom, rgb(12, 212, 129)0, rgb(255, 255, 255)100%);
     margin-top: 200px;
     height: 500px;
 }
@@ -249,7 +249,7 @@ header{
     list-style-type: none;
 }
 .ready{
-    background: rgb(135, 206, 235);
+    background: rgb(12, 212, 129);
     padding: 65px 0 65px 0;
     color: #fff;
 }
