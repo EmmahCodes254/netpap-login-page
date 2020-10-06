@@ -1,5 +1,6 @@
 *{
     outline: none;
+   ;
 }
 html,
 body{
@@ -15,8 +16,12 @@ header{
     z-index: 10;
     color: #fff;
 }
+
 .navbar {
     padding: 50px 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
 }
 .navbar-brand{
     font-weight: 600;
@@ -24,12 +29,19 @@ header{
     text-transform: uppercase;
     color: #fff;
 }
+.nav-item{
+    padding: .5rem;
+}
 .nav-link{
     text-transform: uppercase;
     color: #fff;
 }
+.nav-link.active,
+.nav-link:hover{
+    color: rgb(135, 206, 235) !important;
+}
 .main{
-    background: linear-gradient(153deg, rgb(60, 153, 220)0%, rgb(102, 211, 250)100%), 
+    background: linear-gradient(153deg, rgb(135, 206, 235)0%, rgb(0, 128, 128)100%), 
     url(/assets/signal_searching.svg) center no-repeat;
     position: relative;
     min-height: 80vh;
@@ -77,7 +89,8 @@ header{
     width: 455px;
     height: auto;
 }
-.flex-container{
+
+/*.flex-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -85,22 +98,21 @@ header{
     color: #000;
     margin-top: 50px;
     color: gray;
-}
+}*/
 .card{
     background: #fff;
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
     height: 300px;
     border: none;
     border-radius: 30px;
-}
-.flex-container .card {
     padding-top: 20px;
     padding-bottom: 50px;
 }
-.flex-container .card-title{
-    color: rgb(39, 39, 223);
+.card-title{
+    color: rgb(135, 206, 235);
+    text-align: center;
 }
-.flex-container .card .card-body, .card-text{
+.card .card-body, .card-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,7 +137,7 @@ header{
     align-items: center;
 }
 #wifi-advert h4{
-    color: rgb(39, 39, 223);
+    color: rgb(135, 206, 235);
 }
 #wifi-advert p{
     color: gray;
@@ -152,7 +164,7 @@ header{
   transition: all .3s ease;
 }
 .monetize h3{
-    color: rgb(39, 39, 223);
+    color: rgb(135, 206, 235);
 }
 .custom-counter {
    margin: 0;
@@ -164,9 +176,9 @@ header{
   .custom-counter li {
     counter-increment: step-counter;
     margin-bottom: 10px;
-    border: 1px solid blue;
+    border: 1px solid rgb(135, 206, 235);
     border-radius: 10px;
-    border-color: blue !important;
+    border-color: rgb(135, 206, 235) !important;
     margin:0; padding: 30px;
     position: relative;
   }
@@ -206,7 +218,7 @@ header{
   }
   
 .started{
-    background: linear-gradient(to bottom, #71f0f0, #fff);
+    background: linear-gradient(to bottom, rgb(135, 206, 235)0, rgb(255, 255, 255)100%);
     margin-top: 200px;
     height: 500px;
 }
@@ -231,13 +243,13 @@ header{
     font-size: 12px;
 }
 .started .card .card-body h2{
-    color: rgb(39, 39, 223);
+    color: rgb(135, 206, 235);
 }
 .started .card .card-body ul{
     list-style-type: none;
 }
 .ready{
-    background: rgb(39, 39, 223);
+    background: rgb(135, 206, 235);
     padding: 65px 0 65px 0;
     color: #fff;
 }
@@ -253,7 +265,7 @@ header{
 .btn{
     background: #fff;
     border-radius: 6px;
-    color: rgb(39, 39, 223);
+    color: rgb(135, 206, 235);
     
 }
 .email{
@@ -285,7 +297,7 @@ footer{
     align-items: center;
 }
 #footer-left h3{
-    color: rgb(39, 39, 223);
+    color: rgb(135, 206, 235);
 }
 #footer-left span{
     padding-left: 10px;
@@ -293,3 +305,87 @@ footer{
 #footer-right{
     color: gray;
 }
+
+/*responsiveness
+// Small devices (landscape phones, 576px and up)
+/*--------min width----------
+
+@media (min-width: 576px) {
+    body{
+        margin: 0;
+        width: 100%;
+    }
+    .header,.main{
+        margin: 0%;
+        width: auto;
+    }
+    img{
+        max-width: 200px;
+    }
+    .main{
+        max-width: auto;
+    }
+    section{
+        padding-bottom: 40px;
+    }
+ }*/
+
+
+@media screen and (max-width: 768px) { 
+  img{
+      max-width: 200px;
+  }
+ }
+
+
+/*@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+/*----------------max width------------
+
+@media (max-width: 575.98px) { 
+    *{
+        width: 100%;
+        padding-right: 0;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    }
+    img{
+        max-width: 200px;
+    }
+    .main{
+        max-width: auto;
+    }
+    section{
+        padding: 0 40px 0 20px;
+    }
+}
+
+)
+@media (max-width: 767.98px) { ... }
+
+
+@media (max-width: 991.98px) { ... }
+
+
+@media (max-width: 1199.98px) { ... }
+
+------------for max and min width------------
+@media (max-width: 575.98px) { ... }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }*/

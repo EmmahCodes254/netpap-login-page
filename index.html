@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/bootstrap-4.4.1-dist/js/bootstrap.min.js">
 </head>
 <body>
     <!-- Navigation starts -->
@@ -15,13 +17,15 @@
                 <div class="container">
     
                     <a class="navbar-brand" href="#">NETPAP</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">WIFI-KIOSK</a>
+                            <a class="nav-link active" href="#">WIFI-KIOSK</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">BLOG</a>
@@ -35,6 +39,7 @@
                         
                         </ul>
                     </div>
+
                 </div>
                
               </nav>
@@ -49,7 +54,7 @@
                         <a href="#">Learn more</a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="realtime-img">
                         <img src="/assets/real-time_sync.svg" alt="" srcset="">
                     </div>
@@ -57,13 +62,14 @@
             </div>
         </div>
     </section>
+
+  
     <section>
       <div class="container">
-        <div class="row">
-          <div class="flex-container">
+        <div class="row my-5">
 
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 my-4 col-sm-12 col-xs-12">
+                <div class="card"  style="width: 18rem;">
                   <i class="fa fa-cogs"></i>
                   <div class="card-body">
                     <h5 class="card-title">Simple Setup</h5>
@@ -75,7 +81,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 my- 4 col-sm-12 col-xs-12">
               <div class="card" style="width: 18rem;">
                 <i class="fa fa-television"></i>
                 <div class="card-body">
@@ -87,7 +93,7 @@
               </div> 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-12 col-xs-12">
               <div class="card" style="width: 18rem;">
                 <i class="fa fa-money"></i>
                 <div class="card-body">
@@ -99,7 +105,6 @@
               </div>
             </div>
 
-          </div>
         </div>
       </div>
     </section>
@@ -218,5 +223,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="/static/app.js"></script>
 </body>
 </html>
