@@ -142,15 +142,7 @@ header{
 #wifi-advert p{
     color: gray;
 }
-.monetize-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    color: gray;
-    text-align: center;
-}
+
 .monetize-content .fa{
     background: #81f5bb;
   color: #00ff7f;
@@ -163,8 +155,10 @@ header{
   line-height:50px;
   transition: all .3s ease;
 }
+
 .monetize h3{
     color: rgb(135, 206, 235);
+    text-align: center;
 }
 .custom-counter {
     margin: 0;
@@ -181,35 +175,7 @@ header{
      position: relative;
       
   }
-  /*.custom-counter li:nth-child(even):before {
-    content: counter(section);
-    right: 100%; 
-    margin-right: -20px;
-    position: absolute;
-    border-radius: 50%;
-    padding: 10px;
-    height: 20px;
-    width: 20px;
-    background-color: blue;
-    text-align:center;
-    color: white;
-    font-size: 110%;
-  }
   
-  .custom-counter li:nth-child(odd):before {
-   content: counter(section);
-    left: 100%; 
-    margin-left: -20px;
-    position: absolute;
-    border-radius: 50%;
-    padding: 10px;
-    height: 20px;
-    width: 20px;
-    background-color: blue;
-    text-align:center;
-    color: white;
-    font-size: 110%;
-  }*/
   .custom-counter li:nth-child(even) {
     border-left: 2px dashed;
     border-top-left-radius: 30px;
@@ -224,15 +190,6 @@ header{
     margin-left: 30px; 
     padding-left: 0;
   }
-  /*.custom-counter li:first-child {
-    border-top: 0;
-    border-top-right-radius:0;
-    border-top-left-radius:0;
-  }
-  .custom-counter li:last-child {
-    border-bottom-right-radius:0;
-    border-bottom-left-radius:0;
-  }*/
   
   .custom-counter li::before {
     content: counter(step-counter);
@@ -244,55 +201,6 @@ header{
     padding: 3px 8px;
     border-radius: 50px;
   }
-/*.custom-counter{
-    counter-reset: gradient-counter;
-  list-style: none;
-  margin: 1.75rem 0;
-  padding-left: 1rem;
-}
-.custom-counter li{
-    background: white;
-    border-radius: 0 0.5rem 0.5rem 0.5rem;
-    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
-    counter-increment: gradient-counter;
-    margin-top: 1rem;
-    min-height: 3rem;
-    padding: 1rem 1rem 1rem 3rem;
-    position: relative;
-}
-.custom-counter li::before{
-    background: linear-gradient(135deg, rgb(131, 228, 226) 0%,rgb(162, 237, 86) 100%);
-    border-radius: 1rem 1rem 0 1rem;
-    content: '';
-    height: 3rem;
-    left: -1rem;
-    overflow: hidden;
-    position: absolute;
-    top: -1rem;
-    width: 3rem;
-    align-items: flex-end;
-    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
-    content: counter(gradient-counter);
-    color: rgb(29, 31, 32);
-    display: flex;
-    font: 900 1.5em/1 'Montserrat';
-    justify-content: flex-end;
-    padding: 0.125em 0.25em;
-    z-index: 1;
-}
-.custom-counter li::after{
-    background: linear-gradient(135deg, rgb(131, 228, 226) 0%,rgb(162, 237, 86) 100%);
-    border-radius: 1rem 1rem 0 1rem;
-    content: '';
-    height: 3rem;
-    left: -1rem;
-    overflow: hidden;
-    position: absolute;
-    top: -1rem;
-    width: 3rem;
-}*/
-
-
 /* Style the tab */
 .tab {
     overflow: hidden;
