@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/bootstrap-4.4.1-dist/js/bootstrap.min.js">
 </head>
@@ -24,9 +25,7 @@
 
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">WIFI-KIOSK</a>
-                          </li>
+                        
                           <li class="nav-item">
                             <a class="nav-link" href="#">BLOG</a>
                           </li>
@@ -143,7 +142,7 @@
 
           <div class="col-md-6">
             <div class="wifi-img">
-             <img src="/assets/broadcast.svg" style="width: 400px; height: auto" alt="" srcset="">
+             <img src="/assets/signal_searching.svg" style="width: 400px; height: auto" alt="" srcset="">
             </div>
           </div>
          </div>
@@ -159,17 +158,65 @@
             business. Payments are automatic via MPESA and All you need connect your router,
             load it with our configurations. Market to your neighbours and start earning money
             directly to your account.</p>
-          <h3>How it works</h3>
+
+
+         <!-- <h3>How it works</h3>
           <ol class="custom-counter">
               <li>A user connect to the your Wi-Fi network</li> <br>
               <li>They log In to the Captive portal to select bundle</li><br>
               <li>The User is the billed and sent an sms through the NETPAP cloud</li><br>
               <li>The user receives the voucher</li> <br>
               <li>The user the access internet by using the sms voucher</li>
-          </ol>
+          </ol>-->
           </div>
+
         </div>
+        <!--row start-->
+        <div class="row" id="tab-row">
+          
+          <!-- Tab links -->
+          <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'London')" id="defaultOpen">How it works</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+          </div>
+
+          <!-- Tab content -->
+          <div id="London" class="tabcontent">
+            <h3>how it works</h3>
+            
+              <ol class="custom-counter">
+                <li>A user connect to the your Wi-Fi network</li> <br>
+                <li>They log In to the Captive portal to select bundle</li><br>
+                <li>The User is the billed and sent an sms through the NETPAP cloud</li><br>
+                <li>The user receives the voucher</li> <br>
+                <li>The user the access internet by using the sms voucher</li>
+            </ol>
+          
+          </div>
+
+          <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel turpis lacus. 
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+              Aliquam eget egestas velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Etiam vitae mauris nec massa sollicitudin euismod ut sit amet nibh. Vivamus finibus 
+              neque eget aliquam ultricies. Mauris eu pretium urna. Vestibulum id ligula vitae ex 
+              sodales semper nec at mi. Nulla facilisi. Duis scelerisque faucibus accumsan. 
+              Curabitur ultricies ante in sem ullamcorper, a iaculis augue finibus. Ut mollis ultrices 
+              lectus et laoreet. Nullam id odio enim. Donec vel metus ullamcorper, malesuada arcu sit 
+              amet, posuere ex. Donec et est in elit iaculis pharetra luctus at diam.</p>
+          </div>
+
+          <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+        </div>
+        <!--row finish-->
+        
       </div>
+
     </section>
 
     <section class="started">
@@ -186,6 +233,43 @@
                   <li><i class="fa fa-thumb-tack" style="font-size: 28px; padding-right: 10px"></i>Long range,Wifi Extender(Access point e.g Nano m2,unifi etc)-optional</li>
                   <li><i class="fa fa-info" style="font-size: 28px; padding-right: 10px"></i>NOTE:Existing hardware can be used to extend the network</li>
                 </ul>
+              </div>
+            </div>
+            <div class="partners">
+              <div class="row" id="row-1">
+                <div class="col-sm-3">
+                  <span><i class="fa fa-user" ></i></span>
+                  <span><h6>users</h6></span>
+                </div>
+                <div class="col-sm-3">
+                  <span><i class="fa fa-wifi"></i></span>
+                  <span><h6>Hotspot</h6></span>
+                </div>
+                <div class="col-sm-3">
+                  <span><i class="fa fa-xing"></i></span>
+                  <span><h6>Fixed Broadband</h6></span>
+                </div>
+                <div class="col-sm-3">
+                  <span><i class="fa fa-credit-card"></i></span>
+                  <span><h6>Transactions</h6></span>
+                </div>
+              </div>
+              <div class="row" id="row-2">
+                <!--our partners-->
+                <div id="testimonial-slider" class="owlCarousel">
+                  <div class="testimonial">
+                    <span>
+                      <img src="/assets/gooogle.jpg" alt="" style="width: 300px;">
+                    </span>
+                    <span>
+                      <img src="/assets/gooogle.jpg" alt="" style="width: 300px;">
+                    </span>
+                    <span>
+                      <img src="/assets/gooogle.jpg" alt="" style="width: 300px;">
+                    </span>
+                    
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -211,6 +295,53 @@
            </div>
          </div>
 
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <h3 id="service-title">OUR SERVICES</h3>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="row product">
+              <h5>New product campaigns</h5>
+              <p>Launching a new product? Don't worry you can now send that awesome image or video ad 
+                to all your prospective customers.</p>
+            </div>
+            <div class="row product">
+              <h5>New product campaigns</h5>
+              <p>Launching a new product? Don't worry you can now send that awesome image or video ad 
+                to all your prospective customers.</p>
+            </div>
+            <div class="row product">
+              <h5>New product campaigns</h5>
+              <p>Launching a new product? Don't worry you can now send that awesome image or video ad 
+                to all your prospective customers.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img src="/assets/payments.svg" class="service-img" alt="" style="max-width: 350px;">
+          </div>
+          <div class="col-sm-4">
+            <div class="row product">
+              <h5>New product campaigns</h5>
+              <p>Launching a new product? Don't worry you can now send that awesome image or video ad 
+                to all your prospective customers.</p>
+            </div>
+            <div class="row product">
+              <h5>New product campaigns</h5>
+              <p>Launching a new product? Don't worry you can now send that awesome image or video ad 
+                to all your prospective customers.</p>
+            </div>
+            <div class="row product">
+              <h5>New product campaigns</h5>
+              <p>Launching a new product? Don't worry you can now send that awesome image or video ad 
+                to all your prospective customers.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -243,5 +374,6 @@
     </footer>
 
     <script src="/static/app.js"></script>
+    
 </body>
 </html>
