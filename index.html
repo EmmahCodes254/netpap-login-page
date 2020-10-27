@@ -7,26 +7,36 @@
     <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/bootstrap-4.4.1-dist/js/bootstrap.min.js">
 </head>
 <body>
     <!-- Navigation starts -->
     <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-light  ">
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container">
     
                     <a class="navbar-brand" href="#">NETPAP</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ml-auto">
-                       
+                        
+                          <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                          </li> -->
+ 
                           <li class="nav-item">
                             <a style="color:white;font-weight: 900;" class="nav-link" href="https://stage.netpap.co.ke/auth/login">My Account</a>
                           </li>
                         
                         </ul>
                     </div>
+
                 </div>
                
               </nav>
@@ -36,12 +46,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <h1>ISP BILLING & User Management</h1>
-                    <p style="color:white;">Leading the broadband revolution in Africa</p>
+                    <p style="color:white;">Managing Africa's broadband revolution.</p>
                     <div class="button-area">
                         <a href="https://stage.netpap.co.ke/auth/login">My Dashboard.</a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="realtime-img">
                         <img src="/assets/real-time_sync.svg" alt="" srcset="">
                     </div>
@@ -49,27 +59,30 @@
             </div>
         </div>
     </section>
+
+  
     <section>
       <div class="container">
-        <div class="row">
-          <div class="flex-container">
+        <div class="row my-5">
 
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 my-4 col-sm-12 col-xs-12">
+                <div class="card">
                   <i class="fa fa-cogs"></i>
+                  <h5 class="card-title">Simple Setup</h5>
                   <div class="card-body">
-                    <h5 class="card-title">Simple Setup</h5>
+                    
                     <p class="card-text">To manage your network users get an account integrate to your core router/controller.Start managing.Register M-PESA callbacks and start receiving auto payments.
                     </p>
                   </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
+            <div class="col-md-4 my-4 col-sm-12 col-xs-12">
+              <div class="card">
                 <i class="fa fa-television"></i>
+                <h5 class="card-title">Cloud Management</h5>
                 <div class="card-body">
-                  <h5 class="card-title">Cloud Management</h5>
+                  
                   <p class="card-text">We provide an easy to use dashboard to
                     create bundle plans,send group messages,send payment reminders,auto disconnection.Track payments/users
                   </p>
@@ -77,18 +90,18 @@
               </div> 
             </div>
 
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
+            <div class="col-md-4 my-4 col-sm-12 col-xs-12">
+              <div class="card" >
                 <i class="fa fa-money"></i>
+                <h5 class="card-title">Billing</h5>
                 <div class="card-body">
-                  <h5 class="card-title">Billing</h5>
+                  
                   <p class="card-text">Integrate M-PESA Paybill,cash,cheque,EFT,Kopo Kopo & JENGA.Money goes directly to you paybill.Netpap invoices you at the end of the month.
                   </p>
                 </div>
               </div>
             </div>
 
-          </div>
         </div>
       </div>
     </section>
@@ -104,17 +117,68 @@
          </div>
 
          <div class="col-md-6" id="wifi-advert">
-            <h4><i class="fa fa-wifi"></i>Fixed Broadband</h4>
-            <p> Manage your fixed broadband customers conveniently.System sends automatically payment reminders..Auto disconnect on expiry day.Customers can make repayment and network reconnected automatically.Group customers via package plans with capped speeds.Customer can register unlimited pppoe servers for management all over the world</p>
+            <h4><i class="fa fa-wifi" style="padding-right: 15px; font-size: 36px; color: #43fa9e;"></i>Fixed Broadband</h4>
+            <p>Our beautiful solution allows you to manage your fiber or fixed wireless customers from anywhere in the world.Built using industry standards.The system can disconnect non paying customers automatically.Reconnect customers on payment via MPESA.Our robust Customer relations module sends automatedly custom payment reminders to customers and send network related messages from the comfort of your House.</p>
+            <p>We capture the dream of seamless management on the platform,so that you never walk alone.Group customers into plans with speeds,time,devices allowed and never have to worry about IP ADDRESSes</p>
+            <p>The system provides an interface to export reports into excel and fallback payment methods via cash,cheque and EFT.</p>
          </div>
         </div>
+        <div class="row">
+ 
+          <div class="col-md-6" id="wifi-advert">
+             <h4><i class="fa fa-wifi" style="padding-right: 15px; font-size: 36px; color: #43fa9e;"></i>Hotspot solution</h4>
+             <p>Have you dreamnt of building or managing a large scale hotspot network and monetize it like large carriers with innovative never seen before addons(All batteries included at no cost).
+
+             </p>
+             <p>Our wifi management platform allows you to customize the user flow process for your customers with no registration required.Pay to login steps.</p>
+             <p>Create plans they can purchase either prepay,time metered,calender purchases,unlimited internet or limited data.Customers buy wifi vouchers to enjoy unlimited login</p>
+             <p>Customers are automatically disconnected and prompted to purchase extra vouchers.</p>
+          </div>
+
+          <div class="col-md-6">
+            <div class="wifi-img">
+             <img src="/assets/signal_searching.svg" style="width: 400px; height: auto" alt="" srcset="">
+            </div>
+          </div>
+         </div>
+
+         <div class="row">
+
+          <div class="col-md-6">
+            <div class="wifi-img">
+             <img src="/assets/broadcast.svg" style="width: 400px; height: auto" alt="" srcset="">
+            </div>
+          </div>
+ 
+          <div class="col-md-6" id="wifi-advert">
+             <h4><i class="fa fa-wifi" style="padding-right: 15px; font-size: 36px; color: #43fa9e;"></i> Enterprise Resource Management.(ERP)</h4>
+             <p>Generate financial reports  for your business,Trial balance,balance sheet,income staments and track all business accounts.Know the standing position of your business.Track expense and business bills and evaluate monthly,weekly,yearly</p>
+             <p></p>
+          </div>
+         </div>
       </div>
     </section>
 
     <section class="monetize">
       <div class="container">
         <div class="row">
-          <h3>Hotspot solution</h3>
+          <div class="monetize-content">
+            <h3><i class="fa fa-wifi"></i><i class="fa fa-circle"></i><i class="fa fa-database"></i>HOW IT WORKS</h3>
+          </div>
+
+        </div>
+        <!--row start-->
+        <div class="row" id="tab-row">
+          
+          <!-- Tab links -->
+          <div class="tab">
+            <button class="tablinks active" onclick="openMonetize(event, 'Hotspot')" id="defaultOpen">Hotspot solution</button>
+            <button class="tablinks" onclick="openMonetize(event, 'PPOE')">Fixed Broadband</button>
+          </div>
+
+          <!-- Tab content -->
+          <div id="Hotspot" class="tabcontent">
+            <h3>Hotspot solution</h3>
           <p>NETPAP cloud allows you to sell/share your internet connection or start an ISP 
             business. Payments are automatic via MPESA and All you need connect your router, 
             load it with our conﬁgurations. Market to your neighbours and start earning money 
@@ -127,8 +191,34 @@
               <li>The user receives the voucher</li>
               <li>The user the access internet by using the sms voucher</li>
             </ol>
+          
+          </div>
+
+          <div id="PPOE" class="tabcontent">
+            <h3>Fixed Broadband solution</h3>
+          <p>.</p>
+          <p></p>
+          <p></p>
+            <h3>How it works</h3>
+            <ol class="custom-counter">
+              <li>Open an account for an internet subscriber,assign monthly,weekly,yearly  speed plan.The customer is sent account details and payment details</li>
+              <li>TMake installation ,fiber onu/wireless receiver,Use credentials created to dial the customer to the internet.Customer given 30 minutes free trial pending payment</li>
+              <li>Customer is disconnected and prompted to make payments</li>
+              <li>Once payment is made customer is reconnected and acknowledgement message sent to customer</li>
+              <li>Customer sent custom reminder towards the end of the month.</li>
+            </ol>
+          </div>
+
+          <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
         </div>
+        <!--row finish-->
+        
       </div>
+
     </section>
 
     <section class="started">
@@ -148,6 +238,107 @@
                 </ul>
               </div>
             </div>
+            <div class="partners">
+              <div class="row" id="row-1">
+                <div class="col-sm-3">
+                  <span><i class="fa fa-user" ></i></span>
+                  <span><h6>users</h6></span>
+                  <span ><h6 id="users"></h6></span>
+                </div>
+                <div class="col-sm-3">
+                  <span><i class="fa fa-wifi"></i></span>
+                  <span><h6>Hotspot</h6></span>
+                  <span ><h6 id="hotspot"></h6></span>
+                </div>
+                <div class="col-sm-3">
+                  <span><i class="fa fa-xing"></i></span>
+                  <span ><h6 id="fixed">Fixed Broadband</h6></span>
+                </div>
+                <div class="col-sm-3">
+                  <span><i class="fa fa-credit-card"></i></span>
+                  <span><h6 id="transactions">Transactions</h6></span>
+                </div>
+              </div>
+              <div class="row" id="row-2">
+                <!--our partners-->
+                <!-- <div id="testimonial-slider" class="owlCarousel"> -->
+                  <!-- <div class="testimonial">
+                    <span>
+                      <img src="/assets/gooogle.jpg" alt="" style="width: 300px;">
+                    </span>
+                    <span>
+                      <img src="/assets/gooogle.jpg" alt="" style="width: 300px;">
+                    </span>
+                    <span>
+                      <img src="/assets/gooogle.jpg" alt="" style="width: 300px;">
+                    </span>
+                    
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <h3 id="service-title">Netpap Features</h3>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="row product">
+              <h5>Manage Users/Plans</h5>
+              <p>Create users for fixed customers and assign them data plans with speed quotas,expiration</p>
+              <p>Wifi customers have 2 step to use internet.Hassle free.</p>
+            </div>
+            <div class="row product">
+              <h5>Manage Stations</h5>
+              <p>Register multiple stations(PPPOE Servers/Hotspot servers),anywhere in the world.No questions asked.</p>
+            </div>
+            <div class="row product">
+              <h5>Customer Relations</h5>
+              <p>Send payment reminders,track issue tickets,leads from one dashboard for both hotspot,fixed..</p>
+              <p>Send group messages for alerts and  on payments</p>
+            </div>
+            <div class="row product">
+              <h5>Customer Dashbaord</h5>
+              <p>Customer can raise tickets from dashboard,make payment,downgrade or view notifications..</p>
+              <p>Customer can redeem data points madefrom referrals</p>
+            </div>
+            <!-- <div class="row product">
+              <h5>Customer Relations</h5>
+              <p>Launching a new product? Don't worry you can now send that awesome image or video ad 
+                to all your prospective customers.</p>
+            </div> -->
+          </div>
+          <div class="col-sm-4" >
+                  
+            <img src="/assets/payments.svg" class="service-img" alt="" style="max-width: 350px;">
+          </div>
+          <div class="col-sm-4">
+            <div class="row product">
+              <h5>Financial Reports</h5>
+              <p>Track financial business records,that can assist you have access to credit,investments,taxation and auditing.</p>
+              <p>Track bills and expenses and all business partners.</p>
+              <p>All Payments go to your paybill.</p>
+            </div>
+            <div class="row product">
+              <h5>Access to Credit</h5>
+              <p>Longtime merchants with proper records can have access to credit from our sister company Opalquick LTD.</p>
+              <p>This allows you as our partner to scale your business to limitlessly
+            </div>
+            <div class="row product">
+              <h5>Full Brand ownership</h5>
+              <p>Your company flow is completely branded from sms,dashboard,domain to MPESA paybill</p>
+            </div>
+            <div class="row product">
+              <h5>Referral Discounts</h5>
+              <p>Get discounts,offers,shopping vouchers and commissions from your referrals.</p>
+              <p>Let us grow together.</p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -164,7 +355,7 @@
            
          </div>
          <div class="col-md-6 col-xs-12 col-sm-12">
-          <a class="btn" id="get-started" id="call" href="tel:+254770900066">Call US Today  +254770900066</a>
+          <a id="get-started" id="call" href="tel:+254770900066">Call US Today  +254770900066</a>
          </div>
 
    
@@ -172,6 +363,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- footer -->
     <footer>
@@ -191,7 +383,7 @@
           <div class="col-md-6">
             <div id="footer-right">
               <p style="color: #000;">Made with love. Powered by Netpap GLOBAL</p>
-              <p>info@netpap.co.ke</p>
+              <p>info[at]netpap.co.ke</p>
               <p>Copyright 2018, All rights reserved</p>
             </div>
           </div>
@@ -199,5 +391,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="/static/app.js"></script>
+    
 </body>
 </html>
